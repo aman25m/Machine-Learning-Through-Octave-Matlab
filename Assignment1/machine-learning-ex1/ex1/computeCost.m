@@ -13,7 +13,7 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-fprintf('\nIn computeCost function...\n')
+
 sumVal = sum(((X*theta)-y).^2);
 J = sumVal/(2*m);
 
