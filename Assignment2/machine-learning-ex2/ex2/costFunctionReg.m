@@ -21,7 +21,7 @@ grad = zeros(size(theta));
 h_theta = sigmoid(X*theta);
 J = sum(-y'*log(h_theta) - (1-y)'*log(1-h_theta))/m;
 
-J = J + (lambda/(2*m))*sum(theta.*theta);
+J = J + (lambda/(2*m))*(sum(theta.*theta)-theta(1)^2);
 
 for j=1:n
   if j==1,
