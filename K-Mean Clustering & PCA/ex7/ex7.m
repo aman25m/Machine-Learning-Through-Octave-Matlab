@@ -94,7 +94,7 @@ fprintf('\nK-Means Done.\n\n');
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%{
 %% ============= Part 4: K-Means Clustering on Pixels ===============
 %  In this exercise, you will use K-Means to compress an image. To do this,
 %  you will first run K-Means on the colors of the pixels in the image and
@@ -171,4 +171,4 @@ title(sprintf('Compressed, with %d colors.', K));
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+%}
